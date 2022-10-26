@@ -1,0 +1,92 @@
+body * {
+    position: relative;
+}
+
+/* #virsus {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    width: 368px;
+    height: 403px;
+    border: 20px solid #3598dc;
+    background: white 
+    margin: 20px 40px;
+} */
+
+.form-control {
+    background-color: #f2f2f2;
+    color: rgb(149, 145, 145);
+    font-size: 12px;
+}
+
+.h2 {
+    color: grey;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.h1 {
+    font-weight: bold;
+}
+
+.btn {
+    font-weight: bold;
+    color: white;
+    background-color: #3598dc;
+}
+
+/* .apacia * {
+    color: rgb(31, 173, 124);
+} */
+
+p.text-center {
+    color: white;
+}
+
+p.text-body,
+.blue {
+    color: white;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    background-color: #dedede;
+}
+
+.blue {
+    color: #3598dc;
+}
+
+.grey {
+    color: grey;
+}
+
+.row {
+    border-top: 2px #dedede solid;
+    margin-top: 40px;
+}
+
+.col {
+    margin-top: 40px;
+}
+
+form * {
+    font-family: "Trebuchet MS";
+}
+
+.form-control:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.text-body::placeholder {
+    font-weight: bold;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button {
+    width: 150px;
+    cursor: pointer;
+
+}
